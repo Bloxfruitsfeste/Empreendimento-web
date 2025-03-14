@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #0f3460;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#cursos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.curso {
+    background-color: #16213e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: left;
+}
+
+.curso h2 {
+    text-align: center;
+}
+
+.curso ul {
+    list-style: none;
+    padding: 0;
+}
+
+.curso li {
+    background-color: #0f3460;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.whatsapp-btn {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1da851;
+}
+
+footer {
+    background-color: #0f3460;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#novidades {
+    text-align: center;
+    background: #1E1E1E; /* Mesmo fundo do site */
+    color: red; /* Texto vermelho */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.novidade-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
